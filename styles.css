@@ -1,0 +1,151 @@
+.color{
+    background-color: ghostwhite;
+    font-family:Helvetica;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.two{
+    margin-left: 40px;
+}
+.one{
+    display: flex;
+    justify-content: space-between;
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.image-text {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    transform: translate(-30%, -40%);
+    color: white;
+    font-size: 16px;
+}
+.three{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+.seven{
+    display: flex;
+    flex-direction: column;
+}
+.six{
+    margin-top: 100px;
+}
+.bold{
+    font-size: 60px;
+    color:black;
+    font-weight:800;
+}
+.grey{
+    color:#9E9DA2;
+    font-size: 25px;
+    font-family: Helvetica;
+}
+.eight{
+    margin-top: 55px;
+    margin-right: 20px;
+}
+.five{
+    margin-right: 40px;
+}
+.nine{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    background-color: #75BF7A;
+}
+.white{
+    color:antiquewhite;
+    margin-left: 80px;
+}
+.ten{
+    border-color: antiquewhite;
+    border-width: 2px;
+    color: bisque;
+    width: 20px;
+    height: 5px;
+    margin-right: 10px;
+}
+.white2{
+    background-color: black;
+    color: antiquewhite;
+    margin-left: 30px;
+    font-weight: 650;
+    margin-right: 80px;
+}
+.h2{
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+.p{
+    color:#9E9DA2;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 400px;
+    word-wrap: break-word;
+    text-align: center;
+}
+.cont{
+    position: relative;
+}
+.cont img{
+    position: absolute;
+}
+.cont img:first-child {
+    z-index: 2;
+}
+
+.cont img:last-child {
+    z-index: 1;
+}
+.fore{
+    margin-top: 30px;
+    display: block;
+    left: 40%;
+}
+.back{
+    margin-top: 90px;
+    display: block;
+    left: 36%;
+}
+.cen{
+    margin-top: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.p1{
+    padding-right: 40px;
+}
+.left{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.dio{
+    margin-left: 40px;
+    margin-bottom: 120px;
+    margin-top: 120px;
+}
+.di{
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 120px;
+    margin-top: 120px;
+}
